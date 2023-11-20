@@ -1,7 +1,7 @@
-package edu.hillel.homework.lesson26.services;
+package edu.hillel.homework.lesson27.services;
 
-import edu.hillel.homework.lesson26.dao.ProductDAO;
-import edu.hillel.homework.lesson26.model.Order;
+import edu.hillel.homework.lesson27.dao.ProductDAO;
+import edu.hillel.homework.lesson27.model.Order;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;

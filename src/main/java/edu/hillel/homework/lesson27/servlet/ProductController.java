@@ -1,11 +1,11 @@
-package edu.hillel.homework.lesson26.servlet;
+package edu.hillel.homework.lesson27.servlet;
 
 import com.google.gson.Gson;
-import edu.hillel.homework.lesson26.dao.OrderDAO;
-import edu.hillel.homework.lesson26.dao.ProductDAO;
-import edu.hillel.homework.lesson26.model.Product;
-import edu.hillel.homework.lesson26.services.OrderService;
-import edu.hillel.homework.lesson26.services.ProductService;
+import edu.hillel.homework.lesson27.dao.OrderDAO;
+import edu.hillel.homework.lesson27.dao.ProductDAO;
+import edu.hillel.homework.lesson27.model.Product;
+import edu.hillel.homework.lesson27.services.OrderService;
+import edu.hillel.homework.lesson27.services.ProductService;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;

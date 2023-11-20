@@ -1,6 +1,6 @@
-package edu.hillel.homework.lesson26.services;
+package edu.hillel.homework.lesson27.services;
 
-import edu.hillel.homework.lesson26.model.Product;
+import edu.hillel.homework.lesson27.model.Product;
 
 import java.util.ArrayList;
 import java.util.List;

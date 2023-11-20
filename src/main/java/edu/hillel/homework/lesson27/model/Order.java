@@ -1,4 +1,4 @@
-package edu.hillel.homework.lesson26.model;
+package edu.hillel.homework.lesson27.model;
 
 import org.jetbrains.annotations.NotNull;
 

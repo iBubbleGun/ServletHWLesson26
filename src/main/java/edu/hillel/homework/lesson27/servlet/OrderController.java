@@ -1,8 +1,8 @@
-package edu.hillel.homework.lesson26.servlet;
+package edu.hillel.homework.lesson27.servlet;
 
 import com.google.gson.Gson;
-import edu.hillel.homework.lesson26.dao.OrderDAO;
-import edu.hillel.homework.lesson26.model.Order;
+import edu.hillel.homework.lesson27.dao.OrderDAO;
+import edu.hillel.homework.lesson27.model.Order;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
