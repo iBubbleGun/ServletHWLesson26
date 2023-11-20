@@ -1,4 +1,4 @@
-package edu.hillel.homework.lesson26.repository;
+package edu.hillel.homework.lesson26.services;
 
 import edu.hillel.homework.lesson26.dao.ProductDAO;
 import edu.hillel.homework.lesson26.model.Order;
@@ -7,11 +7,11 @@ import org.jetbrains.annotations.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrderRepository {
+public class OrderService {
 
     private final List<Order> orders = new ArrayList<>();
 
-    public OrderRepository() {
+    public OrderService() {
         addStartingOrders();
     }
 

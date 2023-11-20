@@ -1,15 +1,15 @@
-package edu.hillel.homework.lesson26.repository;
+package edu.hillel.homework.lesson26.services;
 
 import edu.hillel.homework.lesson26.model.Product;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProductRepository {
+public class ProductService {
 
     private final List<Product> products = new ArrayList<>();
 
-    public ProductRepository() {
+    public ProductService() {
         addStartingProducts();
     }
 

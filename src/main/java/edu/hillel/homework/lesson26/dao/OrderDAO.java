@@ -1,8 +1,8 @@
 package edu.hillel.homework.lesson26.dao;
 
-import edu.hillel.homework.lesson26.repository.OrderRepository;
+import edu.hillel.homework.lesson26.services.OrderService;
 
 public class OrderDAO {
 
-    public static final OrderRepository orderRepository = new OrderRepository();
+    public static final OrderService orderRepository = new OrderService();
 }

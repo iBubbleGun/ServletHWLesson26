@@ -4,8 +4,8 @@ import com.google.gson.Gson;
 import edu.hillel.homework.lesson26.dao.OrderDAO;
 import edu.hillel.homework.lesson26.dao.ProductDAO;
 import edu.hillel.homework.lesson26.model.Product;
-import edu.hillel.homework.lesson26.repository.OrderRepository;
-import edu.hillel.homework.lesson26.repository.ProductRepository;
+import edu.hillel.homework.lesson26.services.OrderService;
+import edu.hillel.homework.lesson26.services.ProductService;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -27,8 +27,8 @@ public class ProductController extends HttpServlet {
             final String orderId = req.getParameter("orderId");
             final String productId = req.getParameter("productId");
 
-            final OrderRepository orderRepository = OrderDAO.orderRepository;
-            final ProductRepository productRepository = ProductDAO.productRepository;
+            final OrderService orderRepository = OrderDAO.orderRepository;
+            final ProductService productRepository = ProductDAO.productRepository;
 
             if (orderId != null) {
                 if (orderRepository.isOrderIdExist(Integer.parseInt(orderId))) {
